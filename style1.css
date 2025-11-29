@@ -1,62 +1,103 @@
+html {
+    background-color: rgb(1, 50, 1);
+    height: 100%;
+}
+
 body {
     font-family: sans-serif;
     background-color: black;
     color: whitesmoke;
     font-size: 20px;
-}
-main p {
-    width:100%;
-    color: beige;
-}
-header{
-    background-color: rgb(75, 99, 76);
-    width: 100%;
-    height: 407px;
-    padding: 20px;
+    width: 1000px;
+    margin: 50px auto;
     border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    padding: 20px;
+    box-sizing: border-box;
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items:center ;
-}
-h1 {
-    text-align: right;
-    font-size: 50px;
-    float:top;
-    margin-right: 95px;
-    color: antiquewhite;
-}
-nav a{
-    font-size: 30px;
-    text-decoration: none;
-    color:whitesmoke;
-}
-nav{
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
 }
 
-.left img{
-    width:600px;
-    height: 350px;
-    border-radius: 15%;
-    display: block;
-    margin-bottom:30px;
+main p {
+    width: 100%;
+    color: beige;
+    line-height: 1.5;
 }
-.right{
+
+header {
+    background-color: rgb(75, 99, 76);
+    width: 1080px;
+    margin-left: -60px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0 40px grey;
+    padding: 20px;
+    border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-   
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid darkolivegreen;
 }
-.right:hover{
-     transform: scale(1.5);
-    transition: 2s;
+
+.left {
+    width: 45%;
+    display: flex;
+    justify-content: center;
 }
+
+.left img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    object-fit: cover;
+}
+
+.right {
+    width: 50%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: antiquewhite;
+    text-shadow: 2px 2px 5px black;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+nav a {
+    font-size: 30px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    color: beige;
+    text-shadow: 2px 2px 0px darkgreen;
+}
+
+h3 {
+    font-size: 30px;
+    color: beige;
+    display: inline-block;
+    margin-top: 30px;
+}
+
 footer{
     background-image: linear-gradient(to right bottom, wheat,antiquewhite,brown);
     color:black;
@@ -65,6 +106,8 @@ footer{
     font-size: 40px;
     width:49%;
 }
-.one{
+
+.one {
     color: green;
+    font-weight: bold;
 }
