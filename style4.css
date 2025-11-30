@@ -15,6 +15,7 @@ body{
 main p {
     width:100%;
     color: beige;
+    background-color:grey;
 }
 header{
     background-color: rgb(75, 99, 76);
