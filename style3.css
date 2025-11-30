@@ -100,7 +100,7 @@ th {
 }
 
 .inner-table {
-    width: 100%;
+    width: 1000px;
     border: 1px solid grey;
     margin-bottom: 10px;
 }
